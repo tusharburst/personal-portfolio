@@ -12,7 +12,7 @@ const Nav = () => {
       <nav className="glass flex items-center gap-3 rounded-full px-3 py-2 shadow-[0_8px_30px_rgba(0,0,0,0.4)]">
         <a href="#top" className="flex items-center gap-2 rounded-full bg-secondary px-3 py-1.5 font-mono text-sm font-semibold">
           <Code2 className="h-4 w-4 text-accent" />
-          <span className="tracking-widest">AYLE</span>
+          <span className="tracking-widest">TUSHAR</span>
         </a>
         <ul className="hidden items-center gap-1 px-2 font-mono text-sm text-muted-foreground md:flex">
           {links.map((l) => (
