@@ -20,7 +20,7 @@ const DISCORD_ID = "1074653954119569449";
 const projects = [
   {
     name: "Berserk Host",
-    status: "live" as const,
+    status: "upcoming" as const,
     blurb:
       "A hosting provider company offering VPS hosting, Minecraft server hosting, Discord bot hosting, and web hosting solutions.",
     stack: ["Minecraft Server", "Bot Hosting", "VPS"],
@@ -29,32 +29,32 @@ const projects = [
     featured: true,
   },
   {
-    name: "Evadex",
+    name: "Virtual Bazar",
     status: "live" as const,
     blurb:
-      "A sleek dex-style lookup interface — fast search, clean typography, and a UI tuned for quick scanning.",
-    stack: ["React", "TypeScript", "Tailwind"],
-    href: "https://evadexayliee",
+      "Virtual Bazar | Currency Exchange – your trusted community for safe, smooth, and transparent currency exchanges.",
+    stack: ["INR", "NPR", "CRYPTO"],
+    href: "https://virtual-bazar.vercel.app/",
     cta: "Preview",
     featured: true,
   },
   {
-    name: "ayliee.dev",
+    name: "Axora Bot",
     status: "live" as const,
     blurb:
-      "My personal corner of the web — a home for notes, work, and experiments with glassy surfaces and subtle motion.",
-    stack: ["Vite", "React", "Motion"],
-    href: "https://ayliee.dev",
-    cta: "View Website",
+      "A music bot trending on discord with every essential features and sync music with spotify and youtube with suggestions and mixes !",
+    stack: ["Node.js", "Type Script", "Python"],
+    href: "https://discord.gg/4ZZD4UX3j3",
+    cta: "Join Discord Server",
     featured: false,
   },
 ];
 
 const stats = [
   { value: "3.5+", label: "Years Exp." },
-  { value: "20", label: "Years Old" },
+  { value: "16", label: "Years Old" },
   { value: "10+", label: "Projects" },
-  { value: "30", label: "Clients" },
+  { value: "25+", label: "Clients" },
 ];
 
 const stack = [
@@ -80,7 +80,7 @@ const Index = () => {
           </div>
 
           <h1 className="font-feminine text-7xl tracking-[0.14em] md:text-9xl">
-            <span className="text-shimmer">AYLE</span>
+            <span className="text-shimmer">TUSHAR</span>
           </h1>
 
           <div className="mt-6 terminal-chip">
@@ -88,7 +88,7 @@ const Index = () => {
           </div>
 
           <p className="mx-auto mt-6 max-w-xl text-balance text-muted-foreground md:text-lg">
-            Independent engineer crafting web products, internal tools, and the
+            Independent enthusiast crafting web products, internal tools, and the
             quiet infrastructure that keeps them alive at 3am.
           </p>
 
@@ -125,13 +125,13 @@ const Index = () => {
               Hey, I'm <span className="text-foreground">Alya</span>.
             </h2>
             <p className="mt-6 text-muted-foreground">
-              I'm a graphic designer, web developer, and Discord bot builder.
+              I'm a hosting tech administrator, web developer, and Discord bot builder.
               I love blending careful visual design with clean code — brand
               systems, polished interfaces, and bots that feel considered down
               to the last detail.
             </p>
             <p className="mt-4 text-muted-foreground">
-              Right now I'm focused on crafting calm, fast web experiences and
+              Right now I'm focused on crafting own infrastructure, fast web experiences and
               custom tooling for communities — things that stay out of the way
               and just feel good to use.
             </p>
@@ -260,13 +260,13 @@ const Index = () => {
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full bg-foreground text-background hover:bg-foreground/90">
-              <a href="mailto:arcticayl@gmail.com">
-                arcticayl@gmail.com <ArrowUpRight className="ml-1 h-4 w-4" />
+              <a href="mailto:burstgamertushar@gmail.com">
+                burstgamertushar@gmail.com <ArrowUpRight className="ml-1 h-4 w-4" />
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="btn-grad-border rounded-full bg-secondary/50">
-              <a href="https://github.com/ayliee" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
-                <Github className="mr-2 h-4 w-4" /> github.com/ayliee
+              <a href="https://github.com/tusharburst" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+                <Github className="mr-2 h-4 w-4" /> github.com/tusharburst
               </a>
             </Button>
           </div>
@@ -275,7 +275,7 @@ const Index = () => {
 
       <footer className="border-t border-border/60 py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 font-mono text-xs text-muted-foreground md:flex-row">
-          <span>© {new Date().getFullYear()} AYLE · crafted in the dark</span>
+          <span>© {new Date().getFullYear()} TUSHAR · crafted in the dark</span>
           <span className="flex items-center gap-2">
             <span className="h-1.5 w-1.5 animate-pulse-glow rounded-full bg-accent" />
             system nominal
