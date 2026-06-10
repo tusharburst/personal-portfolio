@@ -15,16 +15,16 @@ import {
   MousePointer2,
 } from "lucide-react";
 
-const DISCORD_ID = "544047377540186114";
+const DISCORD_ID = "1074653954119569449";
 
 const projects = [
   {
-    name: "inamusic",
+    name: "Berserk Host",
     status: "live" as const,
     blurb:
-      "A crafted music experience focused on discovery and flow — smooth player UI, curated browsing, and responsive playback across devices.",
-    stack: ["React", "Node", "Audio"],
-    href: "https://inamusic.in",
+      "A hosting provider company offering VPS hosting, Minecraft server hosting, Discord bot hosting, and web hosting solutions.",
+    stack: ["Minecraft Server", "Bot Hosting", "VPS"],
+    href: "https://berserk.host",
     cta: "Visit Site",
     featured: true,
   },
