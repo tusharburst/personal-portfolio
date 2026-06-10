@@ -53,7 +53,7 @@ export default function DiscordProfile({
     ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.${
         user.avatar.startsWith("a_") ? "gif" : "png"
       }?size=512`
-    : `https://cdn.discordapp.com/embed/avatars/0.png`;
+    : `https://ibb.co/svRQkqTV`;
 
   const decorationUrl = user?.avatar_decoration_data?.asset
     ? `https://cdn.discordapp.com/avatar-decoration-presets/${user.avatar_decoration_data.asset}.png?size=512&passthrough=true`
