@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 // Replace with your real Discord user ID. Lanyard requires you to join their
 // Discord so your presence is tracked: https://github.com/Phineas/lanyard
-const DEFAULT_DISCORD_ID = "000000000000000000";
+const DEFAULT_DISCORD_ID = "1074653954119569449";
 
 type LanyardData = {
   discord_user?: {
