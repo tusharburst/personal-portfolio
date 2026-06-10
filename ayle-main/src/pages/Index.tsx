@@ -122,7 +122,7 @@ const Index = () => {
           <div className="relative overflow-hidden rounded-2xl border border-accent/30 bg-card/60 p-8 shadow-[0_0_60px_-20px_hsl(var(--accent)/0.6)] backdrop-blur md:p-10">
             <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-accent/60 to-transparent" />
             <h2 className="font-display text-3xl font-semibold md:text-4xl">
-              Hey, I'm <span className="text-foreground">Alya</span>.
+              Hey, I'm <span className="text-foreground">Tushar</span>.
             </h2>
             <p className="mt-6 text-muted-foreground">
               I'm a hosting tech administrator, web developer, and Discord bot builder.
