@@ -47,7 +47,7 @@ export default function DiscordProfile({
   }, [userId]);
 
   const user = data?.discord_user;
-  const status = data?.discord_status ?? "offline";
+  const status = data?.discord_status ?? "online";
 
   const avatarUrl = user?.avatar
     ? `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.${
