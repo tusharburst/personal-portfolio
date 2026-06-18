@@ -1,4 +1,4 @@
-# Aylfolio — Portfolio Template
+# — Portfolio Template
 
 A sleek, AMOLED-dark personal portfolio built with **Vite + React + TypeScript + Tailwind CSS**. Features a live Discord presence card (via Lanyard API), animated constellation background, typewriter tagline, gradient buttons, and a custom glowing cursor.
 
