@@ -109,7 +109,7 @@ export default function DiscordProfile({
         {user ? (
           <>@{user.username}</>
         ) : err ? (
-          <span className="text-muted-foreground/60">offline</span>
+          <span className="text-muted-foreground/60">online</span>
         ) : (
           <span className="opacity-60">connecting…</span>
         )}
